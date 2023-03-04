@@ -9,5 +9,9 @@ public class Main {
 
         System.out.println("Name: " + transport.getName());
         System.out.println("Seats number " + transport.getSeatsNumber());
+
+        Car car = new Car();
+        car.move();
+        car.options();
     }
 }
